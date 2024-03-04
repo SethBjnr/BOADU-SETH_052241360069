@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+    <style>
+        body {
+    color: white;
+}
+        body{background-image: url(18433.jpg);
+        background-size:cover;
+        background-position: center;
+        background-repeat: no-repeat;
+            img{display: block;
+                max-width: 100%;
+                max-height: 100%;
+                margin: auto;
+            }
+        }
+        
+    </style> 
+<body>
+    <header>
+        <h1>Welcome to the Faculty Website</h1>
+        <nav>
+            <ul>
+                <li><a href="faculty.html">Faculty</a></li>
+                <li><a href="departments.html">Departments</a></li>
+                <li><a href="timetables.html">Timetables</a></li>
+                <li><a href="registration.html">Registration</a></li>
+                <li><a href="payments.html">Payments</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        COMPUTER SCIENCE FACULTY:<br>The Computer Science Faculty is dedicated to providing high-quality education, fostering innovative research, and promoting interdisciplinary collaboration in the field of computer science.<br>With a team of distinguished scholars and industry professionals, the faculty offers a comprehensive range of academic programs, conducts cutting-edge research, and engages with industry partners and the broader community to drive technological innovation and make significant contributions to the field.<br><br>
+
+DEPARTMENTS:<br>The Computer Science Department at KsTU offers a dynamic and interdisciplinary environment for students and faculty to explore various topics in computer science. The department provides a wide range of academic programs, including undergraduate and graduate degrees, with specializations in areas such as Artificial Intelligence, Data Science, Software Engineering, and Cybersecurity.<br>Through state-of-the-art facilities, rigorous academic programs, and active engagement with industry partners, the department prepares students for successful careers in technology and fosters research excellence in key areas of computer science.<br><br>
+
+TIMETABLES:<br>The Computer Science Timetable provides students and faculty with a schedule of classes, labs, office hours, and other important events related to computer science courses and activities.<br> It helps students plan their schedules effectively and ensures they don't miss any important academic commitments or events. The timetable typically includes information such as course names, timings, locations, and additional events like seminars or guest lectures relevant to computer science.<br><br>
+
+REGISTRATION:<br>The Computer Science Registration process allows students to enroll in courses for the upcoming semester. Students are guided through the registration process, which includes checking the course schedule, meeting with academic advisors, accessing the registration system, selecting courses, and submitting their registration online.<br>Important dates and deadlines are provided, along with resources for assistance with course selection and registration-related issues. The registration process ensures that students are properly enrolled in their desired courses and have a smooth transition into the new semester.<br><br>
+
+PAYMENTS:<br>The Computer Science Payment page provides information and instructions on how to make payments for tuition, fees, and other expenses related to computer science courses and activities.<br>It outlines various payment methods, such as online payments, in-person payments, and payment plans, along with important deadlines for payment submission. Information on financial aid, scholarships, and resources for assistance with payment-related matters is also provided to ensure that students can manage their financial obligations effectively and avoid any disruptions to their academic progress.<br><br>
+
+    </main>
+<body>
+<h2>Student Registration Form</h2>
+
+<form action="submit.php" method="post" enctype="multipart/form-data">
+    <label for="student_number">Student Number:</label><br>
+    <input type="text" id="student_number" name="student_number" required placeholder="student-number"required><br><br>
+
+    <label for="first_name">First Name:</label><br>
+    <input type="text" id="first_name" name="first_name" required placeholder="FIRST NAME"required><br>
+
+    <label for="last_name">Last Name:</label><br>
+    <input type="text" id="last_name" name="last_name" required placeholder="LAST NAME"required><br>
+
+    <label for="dob">Date of Birth:</label><br>
+    <input type="date" id="dob" name="dob" required><br>
+
+    <label for="faculty">Faculty:</label><br>
+    <input type="text" id="faculty" name="faculty" required placeholder="FACULTY"required><br>
+
+    <label for="department">Department:</label><br>
+    <input type="text" id="department" name="department" required placeholder="DEPARTMENT"required><br>
+
+    <label for="telephone">Telephone Number:</label><br>
+    <input type="tel" id="telephone" name="telephone" required placeholder="PHONE NUMBER"required><br>
+
+    <label for="address">Address:</label><br>
+    <textarea id="address" name="address" required placeholder="EMAIL"required></textarea><br>
+
+    <label for="picture">Upload Picture:</label><br>
+    <input type="file" id="picture" name="picture" accept="image/*" required><br>
+
+    <input type="submit" value="Submit">
+</form>
+    </body><br><br>
+    
+    <footer>
+    DEVELOPED BY SBJ
+    </footer>
+</body>
+</html>
